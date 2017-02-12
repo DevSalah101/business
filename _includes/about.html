@@ -1,0 +1,16 @@
+<section class="about-us">
+  <div class="container">
+
+    <div class="about-content">
+
+      {% for items in site.data.settings.About %}
+      <h2 class="animated">{{items.title}}</h2>
+      <p class="animated">
+        {{items.content}}
+      </p>
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>

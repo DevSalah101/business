@@ -1,0 +1,28 @@
+<section class="contact-us">
+
+  <div class="container">
+
+    {% for contact in site.data.settings.Contact %}
+      <h2>{{contact.title}}</h2>
+      <p>
+        {{contact.content}}
+      </p>
+    {% endfor %}
+
+    <div class="form">
+      <form>
+        <div class="input-group">
+          <i class="fa fa-user-o fa-fw"></i>
+          <input type="text" placeholder="Name"/>
+        </div>
+        <div class="input-group">
+          <i class="fa fa-envelope-o fa-fw"></i>
+          <input type="email" placeholder="Email Address"/>
+        </div>
+        <button>Send</button>
+      </form>
+    </div>
+
+  </div>
+
+</section>

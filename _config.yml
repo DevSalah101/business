@@ -1,6 +1,8 @@
-# Build settings
+#-------------------------
+# Build Settings
+
 markdown: redcarpet
-baseurl: /myPersonelBlog
+baseurl: /Business
 
 sass:
   sass_dir: assets/css

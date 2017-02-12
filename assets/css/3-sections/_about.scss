@@ -1,0 +1,16 @@
+.about-us {
+  @extend .text-center;
+
+  .about-content {
+    max-width: 800px;
+    margin: auto;
+
+    h2 {
+      color: $heading;
+    }
+
+    p {
+      @extend .cus-p;
+  }
+}
+}

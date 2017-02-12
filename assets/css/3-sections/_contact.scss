@@ -1,0 +1,45 @@
+.contact-us {
+  @extend .text-center;
+
+  h2 {
+    color: $heading;
+  }
+
+  p {
+    @extend .cus-p;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .form {
+    max-width: 300px;
+    margin: 40px auto;
+
+    .input-group {
+      position: relative;
+
+      i {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        color: $paraColor
+      }
+
+      input {
+        width: 100%;
+        border: 1px solid #eee;
+        padding: 10px;
+        margin-bottom: 6px;
+        color: $paraColor;
+      }
+    }
+
+    button {
+      width: 100%;
+      background: $mainColor;
+      border: none;
+      color: $white;
+      padding: 12px 0
+    }
+  }
+}

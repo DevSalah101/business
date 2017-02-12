@@ -1,0 +1,40 @@
+.our-team {
+  background: $mainColor;
+  @extend .text-center;
+  color: $white;
+
+  .team-items {
+    overflow: hidden;
+    margin: 40px 0;
+
+    .item {
+      @extend .float-left;
+      .placeholder {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        background: $white;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+      h3 {
+        margin: 10px 0
+      }
+    }
+
+  }
+  button {
+    color: $white;
+    background: none;
+    border: 1px solid $white;
+    padding: 7px 20px;
+    border-radius: 20px;
+    @extend .text-upper;
+  }
+}
+
+@media (min-width: 992px) {
+  .item {
+    width: 33.333333%;
+  }
+}

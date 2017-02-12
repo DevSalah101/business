@@ -1,18 +1,28 @@
-#------------------------------
-# General Site Settings
+#------------------------
+# Global Settings
 
-title: My New Jekyll Project
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Business
+description: Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+email: devsalah101@gmail.com
 
-#----------------------------------
-# News Article
-projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+#------------------------
+# About Us Section
+
+About:
+- {title: About, content: On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.}
+
+#------------------------
+# Team Us Section
+
+sectionTitle: Our Team
+
+Team:
+- {Face: assets/img/person01.jpg, Name: John Doe, Job: Founder & CEO}
+- {Face: assets/img/person02.jpg, Name: Salah Belouad, Job: Web Designer}
+- {Face: assets/img/person03.jpg, Name: Math Gage, Job: Photographic}
+
+#------------------------
+# Contact Us Section
+
+Contact:
+- {title: Contact Us, content: On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.}

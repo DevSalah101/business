@@ -1,0 +1,90 @@
+.menu {
+  background: #ecf0f1;
+  color:  $paraColor;
+  overflow: hidden;
+  padding: 20px 0;
+
+  p {
+    font-size: 30px;
+    text-transform: uppercase;
+    @extend .float-left;
+  }
+
+  ul {
+    @extend .float-right;
+    li {
+      display: inline-block;
+      margin-left: 25px;
+      &:last-of-type {
+        background: $mainColor;
+        color: $white;
+        padding: 7px 30px;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.sign-form {
+  position: fixed;
+  z-index: 999;
+  background: rgba(0, 0, 0, .8);
+  min-width: 100%;
+  min-height: 100%;
+  perspective: 300px;
+  display: none;
+
+  form {
+    margin: auto;
+    position: relative;
+    background: $white;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+
+    .fa-close {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      color: #7f8c8d;
+      height: 30px;
+      width: 30px;
+      line-height: 30px;
+      cursor: pointer;
+    }
+
+    h2 {
+      color: $mainColor;
+      @extend .text-center;
+      margin-bottom: 30px;
+      margin-top: 60px;
+    }
+
+    .input-group {
+      position: relative;
+      width: 300px;
+      margin: auto;
+
+      i {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        color: $paraColor;
+      }
+
+      input {
+        border: 1px solid #eee;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        background: $mainColor;
+        color: $white;
+        padding: 14px 0;
+        border: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+//------------------------
+// Colors
+$mainColor : #3498db;
+$white : #fff;
+$paraColor: #7f8c8d;
+$heading: #34495e;
+
+//------------------------
+// Global Class
+.container {
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+section {
+  padding: 60px 0;
+}
+h2 {
+  @extend .text-upper;
+}
+.cus-p {
+  margin-top: 20px;
+  line-height: 2;
+  color:  $paraColor;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.img-responsive {
+  display: block;
+  width: 100%;
+}
+//------------------------
+// Media Query
+
+@media (min-width: 992px) {
+  .container {width: 1170px}
+}

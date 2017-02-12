@@ -1,0 +1,21 @@
+<section class="our-team">
+  <div class="container">
+
+    <h2 class="animated">{{site.data.settings.sectionTitle}}</h2>
+
+    <div class="team-items">
+
+      {% for team in site.data.settings.Team %}
+        <div class="item">
+          <div class="placeholder"><img class="img-responsive" src="{{team.Face}}" /></div>
+          <h3>{{team.Name}}</h3>
+          <p>{{team.Job}}</p>
+        </div>
+      {% endfor %}
+
+    </div>
+
+    <button>Work With Us</button>
+
+  </div>
+</section>

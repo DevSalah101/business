@@ -1,29 +1,14 @@
 ---
 ---
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0
-}
+@import "1-tools/_normalize";
+@import "1-tools/_framework";
+@import "1-tools/_animate";
 
-ul {
-  list-style: none;
-  padding: 0
-}
+@import "2-base/_reset";
 
-li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.is-active {
-  color: #888
-}
-
-h1, h2 {
-  font-weight: 400
-}
+@import "3-sections/_navigation";
+@import "3-sections/_header";
+@import "3-sections/_about";
+@import "3-sections/_team";
+@import "3-sections/_contact";
+@import "3-sections/_footer";
