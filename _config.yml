@@ -1,0 +1,7 @@
+# Build settings
+markdown: redcarpet
+baseurl: /myPersonelBlog
+
+sass:
+  sass_dir: assets/css
+  style: compresed
